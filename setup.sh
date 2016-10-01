@@ -96,6 +96,7 @@ brew cask install sequel-pro
 brew cask install atom
 brew cask install slack
 brew cask install java
+brew cask install openemu
 
 brew install gcc
 brew install bash-git-prompt
