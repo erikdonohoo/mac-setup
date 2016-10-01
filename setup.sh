@@ -1,6 +1,8 @@
 #!/bin/bash
 #Last update: May 19, 2015
 
+# setup terminal (pro, menlo ft 18)
+
 # Many ideas from: http://blog.apps.npr.org/2013/06/06/how-to-setup-a-developers-environment.html
 xcode-select --install
 
@@ -93,6 +95,7 @@ brew cash install virtualbox
 brew cask install sequel-pro
 brew cask install atom
 brew cask install slack
+brew cask install java
 
 brew install gcc
 brew install bash-git-prompt
