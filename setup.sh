@@ -1,8 +1,6 @@
 #!/bin/bash
 #Last update: May 19, 2015
 
-# setup terminal (pro, menlo ft 18)
-
 # Many ideas from: http://blog.apps.npr.org/2013/06/06/how-to-setup-a-developers-environment.html
 xcode-select --install
 
@@ -113,3 +111,9 @@ source ~/.bash_profile
 
 echo "Install atom plugins"
 apm i atom-beautify editorconfig file-icons linter linter-jscs linter-jshint merge-conflicts minimap tabs-to-spaces pigments tag jscs-fixer linter-jsonlint atom-typescript
+
+
+# Final Steps
+# setup terminal (pro, menlo ft 18)
+# Copy back in ssh keys
+# Copy in openemu folders from google drive
