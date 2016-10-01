@@ -97,6 +97,10 @@ brew cask install atom
 brew cask install slack
 brew cask install java
 brew cask install openemu
+brew cask install handbrake
+brew cask install firefox
+brew cask install mongohub
+brew cask install vlc
 
 brew install gcc
 brew install bash-git-prompt
