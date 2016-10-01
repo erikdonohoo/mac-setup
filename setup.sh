@@ -11,6 +11,9 @@ brew doctor
 echo "Updating Brew"
 brew update
 
+echo "Make .ssh folder"
+mkdir ~/.ssh
+
 #Bash profile
 nano ~/.bashrc
 alias ll="ls -al"
@@ -84,7 +87,7 @@ brew upgrade brew-cask && brew cleanup && brew cask cleanup
 source ~/.bash_profile
 
 echo "Install apps"
-brew cask install google-chrome
+brew cask install google-chrome-beta
 brew cask install google-drive
 brew cash install virtualbox
 brew cask install sequel-pro
