@@ -100,7 +100,7 @@ echo "source ~/.bashrc" >> ~/.bash_profile
 source ~/.bash_profile
 
 echo "Install atom plugins"
-apm i atom-beautify editorconfig file-icons linter linter-jscs linter-jshint merge-conflicts minimap tabs-to-spaces pigments tag jscs-fixer linter-jsonlint atom-typescript
+apm i atom-beautify editorconfig file-icons linter linter-eslint merge-conflicts minimap tabs-to-spaces pigments tag linter-jsonlint atom-typescript
 
 
 # Final Steps
