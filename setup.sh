@@ -87,22 +87,12 @@ brew upgrade brew-cask && brew cleanup && brew cask cleanup
 source ~/.bash_profile
 
 echo "Install apps"
-brew cask install google-chrome-beta
-brew cask install google-drive
-brew cash install virtualbox
-brew cask install sequel-pro
-brew cask install atom
-brew cask install slack
 brew cask install java
-brew cask install openemu
-brew cask install handbrake
-brew cask install firefox
-brew cask install mongohub
-brew cask install vlc
 
 brew install gcc
 brew install bash-git-prompt
 brew install git bash-completion
+brew install yarn
 
 echo "Install nvm"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
@@ -117,3 +107,5 @@ apm i atom-beautify editorconfig file-icons linter linter-jscs linter-jshint mer
 # setup terminal (pro, menlo ft 18)
 # Copy back in ssh keys
 # Copy in openemu folders from google drive
+# Install stuff through normal routes
+# * Firefox, OpenEmu, Slack, Chrome, VirtualBox, SequelPro, Atom, Handbrake, MongoHug, VLC
